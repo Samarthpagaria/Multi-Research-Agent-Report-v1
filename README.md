@@ -74,7 +74,7 @@ User Query
 | Setting                     | Value                                                              |
 | --------------------------- | ------------------------------------------------------------------ |
 | **Provider**                | OpenRouter (`https://openrouter.ai/api/v1`)                        |
-| **Default Model**           | `qwen/qwen3-8b` (configurable via `MODEL` env var)                 |
+| **Default Model**           | `openai/gpt-oss-20b` (configurable via `MODEL` env var)            |
 | **Orchestration Framework** | LangChain JS (`@langchain/core`, `@langchain/openai`, `langchain`) |
 | **Execution Pattern**       | Sequential (Scout → Reader → Writer → Critic)                      |
 | **LLM Calls / Report**      | **4 total**                                                        |
